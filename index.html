@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Đăng ký khách hàng</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="index.html" method="post">
+      <div class="container">
+        <div class="header">Đăng ký khách hàng</div>
+
+        <!-- Khung thông tin đăng nhập -->
+        <div class="thong-tin-box">
+          <div class="info">Thông tin đăng nhập</div>
+          <div class="form-group">
+            <div class="form">
+              <div class="label">Tên đăng nhập</div>
+              <div class="input">
+                <input type="text" name="user" required />
+              </div>
+            </div>
+
+            <div class="form">
+              <div class="label">Mật khẩu</div>
+              <div class="input">
+                <input type="password" name="pass" required />
+              </div>
+            </div>
+
+            <div class="form">
+              <div class="label">Nhập lại mật khẩu</div>
+              <div class="input">
+                <input type="password" name="re-pass" required />
+              </div>
+              <div class="ghi-chu">(*)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Khung thông tin chi tiết -->
+        <div class="thong-tin-box">
+          <div class="info">Thông tin chi tiết cá nhân</div>
+          <div class="form-group">
+            <div class="form">
+              <div class="label">Họ tên khách hàng</div>
+              <div class="input">
+                <input type="text" name="user-costumer" required />
+              </div>
+            </div>
+
+            <div class="form">
+              <div class="label">Ngày sinh</div>
+              <div class="input">
+                <input type="date" name="dob" required />
+              </div>
+              <div class="ghi-chu">(*)</div>
+            </div>
+
+            <div class="form"></div>
+              <div class="label">Giới tính</div>
+              <div class="input">
+                <input type="radio" name="gender" id="male" required />
+                <label for="male">Nam</label>
+                <input type="radio" name="gender" id="female" required />
+                <label for="female">Nữ</label>
+              </div>
+            </div>
+
+            <div class="form">
+              <div class="label">Địa chỉ email</div>
+              <div class="input">
+                <input type="email" name="email-address" required />
+              </div>
+              <div class="ghi-chu">(*)</div>
+            </div>
+
+            <div class="form">
+              <div class="label">Thu nhập</div>
+              <div class="input">
+                <input type="text" name="thu-nhap" required />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="submit-button">
+          <button type="submit">Đăng ký</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
